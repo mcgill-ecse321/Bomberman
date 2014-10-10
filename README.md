@@ -71,3 +71,8 @@ wise to bomb out as many bricks as possible.
   many enemies as possible within a limited time. On these levels,
   Bomberman can't be hurt by exploding bombs, so dump the explosives as
   much as you can.
+
+
+# Scoring
+
+- If you kill two enemies with the same bomb, the you get double points for the second kill. 
