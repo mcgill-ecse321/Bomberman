@@ -75,6 +75,7 @@ wise to bomb out as many bricks as possible.
 
 # Scoring
 
+- The user gets points for killing enemies (see points distribution above)
 - If you kill two enemies with the same bomb, the you get double points for the second kill. 
 
 # Map and Screen
@@ -82,3 +83,17 @@ wise to bomb out as many bricks as possible.
 - A map is 31 tiles across and 13 tiles down. Note that this includes the surrounding wall.
 - At any given time, there are 15 columns and 13 rows which are visible. You may get into a scenario where only half of the leftmost tile and half of the rightmost tile are visible in which case there are actually 16 tiles wide visible on screen, however the maximum number of whole tiles is 15 across.
 - The screen will scroll when Bomberman is in the center, ie. 7 tiles on both side of Bomberman. Scrolling stops if Bomberman is within 7 tiles of the leftmost or rightmost edge of the map.
+- Each level one powerup will be randomly placed behind a brick, with a uniform random distribution
+- Each level one exit portal will be randomly placed behind a brick that is unoccupied, with a uniform random distribution
+- Bomberman always begins at the topleft corner of the map.
+- The topleft corner of the map is always cleared of bricks and enemies
+- Ememies are generated randomly accross the map where where there is neither a block nor a brick, with a uniform random distribution
+
+# Enemy Characteristics
+
+- Slow will move the slowest
+- normal enemies will move twice as fast as slow enemies
+- fast enemies will move three times as fast as slow enemies
+- Low intelligence enemies will move in one direction until they hit an obstacle then they will move in the opposite direction
+- medium intelligence enemies will move like low intelligence enemies but may change directions at an intersection with a 10% chance. Medium intelligence enemies shall also chase bomberman if bomberman comes within a 1 square radius.
+- High intelligence enemies move like medium intelligence enemies with a 50% chance of changing directions. High intelligence enemies shall chase bomberman if he is within a 2 square radius; if there is an obstacle between bomberman and the enemy, it will use A-search to find the path to bomberman, if such a path exists.
