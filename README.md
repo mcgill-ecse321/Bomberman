@@ -77,6 +77,8 @@ wise to bomb out as many bricks as possible.
 
 - The user gets points for killing enemies (see points distribution above)
 - If you kill two enemies with the same bomb, the you get double points for the second kill. 
+- The lowest value kill gets doubled. eg. killing a Ballom and a Doll results in the Baloom being worth 200 pts and the Doll being worth the usual 400
+- Killing more than two enemies on a single bomb results in doubling the double for each successive kill. eg. killing 4 balooms with one bomb results in a total score of 100 + 200 + 400 + 800 = 1500 pts
 
 # Map and Screen
 
@@ -96,4 +98,4 @@ wise to bomb out as many bricks as possible.
 - fast enemies will move three times as fast as slow enemies
 - Low intelligence enemies will move in one direction until they hit an obstacle then they will move in the opposite direction
 - medium intelligence enemies will move like low intelligence enemies but may change directions at an intersection with a 10% chance. Medium intelligence enemies shall also chase bomberman if bomberman comes within a 1 square radius.
-- High intelligence enemies move like medium intelligence enemies with a 50% chance of changing directions. High intelligence enemies shall chase bomberman if he is within a 2 square radius; if there is an obstacle between bomberman and the enemy, it will use A-search to find the path to bomberman, if such a path exists.
+- High intelligence enemies move like medium intelligence enemies with a 50% chance of changing directions. High intelligence enemies shall chase bomberman if he is within a 2 square radius; if there is an obstacle between bomberman and the enemy, it will use A star search to find the path to bomberman, if such a path exists.
