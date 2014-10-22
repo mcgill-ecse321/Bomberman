@@ -27,7 +27,7 @@ only be found by dissolving bricks by the flames of exploding bombs,
 also concealed in brick walls are "power-up" panels, which Bomberman
 collects in order to increase his powers.
 
-* **BOMBS** In the earliest stage of the game, only one bomb can be set
+- **BOMBS** In the earliest stage of the game, only one bomb can be set
   at a time and it has very weak firepower. As "power-up" panels are
   taken in, the bombs become easier to use and more lethal. 
 
@@ -41,7 +41,11 @@ wise to bomb out as many bricks as possible.
 - **EXITWAYS** These are to be found among the bricks. After overcoming
   all enemies, Bomberman stands over the exitways to proceed to the next
   level. However, Bomberman is in real trouble if an exitway is hit by a
-  bomb.
+  bomb. If this happens, any existing enemies on the map are removed, and
+  in their place 8 enemies of one difficulty higher than the hardest enemy
+  in the level will spawn. For example, if a level has 3 Ballooms and 3
+  ONeals, 8 Dolls would spawn in this case. The same thing happens also
+  in the case that an powerup is exploded by a bomb.
 
 - **"POWER-UP" PANELS** These panels turn up occasionally among the
   bricks. There are several different types of panels with different
@@ -65,6 +69,9 @@ wise to bomb out as many bricks as possible.
     - Ovapi    2000 pts.
     - Pass     4000 pts.
     - Pontan   8000 pts.
+    
+  See the table on this page for a list of which enemies (and how many of
+  each) appear in each stage: http://strategywiki.org/wiki/Bomberman/Walkthrough.
 
 - **BONUS LEVELS** A bonus level is awarded after the consecutive five
   levels are cleared. The objective on bonus level is to take out as
