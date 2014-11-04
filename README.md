@@ -89,7 +89,7 @@ wise to bomb out as many bricks as possible.
 
 # Map and Screen
 
-- A map is 31 tiles across and 13 tiles down. Note that this includes the surrounding wall.
+- A map is 31 tiles across and 13 tiles down. Note that this includes the surrounding wall. The actual playable section is 29 tiles across and 11 tiles down.
 - At any given time, there are 15 columns and 13 rows which are visible. You may get into a scenario where only half of the leftmost tile and half of the rightmost tile are visible in which case there are actually 16 tiles wide visible on screen, however the maximum number of whole tiles is 15 across.
 - The screen will scroll when Bomberman is in the center, ie. 7 tiles on both side of Bomberman. Scrolling stops if Bomberman is within 7 tiles of the leftmost or rightmost edge of the map.
 - Each level one powerup will be randomly placed behind a brick, with a uniform random distribution
