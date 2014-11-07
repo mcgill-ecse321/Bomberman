@@ -76,3 +76,17 @@ wise to bomb out as many bricks as possible.
 # Scoring
 
 - If you kill two enemies with the same bomb, the you get double points for the second kill. 
+
+# Powerups
+There are two different categories of powerups in Bombemran. Some are lost as soon as Bomberman dies while the others are kept even if Bomberman dies. When you restart a new game from an unlocked level, you only start with the powerups which are kept on death.
+
+## Kept on Death
+- Bombs - increases the amount of bombs dropped at a time by 1, up to a maximum of 10.
+- Flames - increases explosion range of all bombs by 1 square in each direction.
+- Speed - increases movement speed.
+
+## Lost on Death
+- Detonators - Gives the abilitiy to detonate the oldest bomb.
+- Bomb Pass - Gives the ability to pass through bombs.
+- Wall Pass - Gives the ability to pass through *destructible* walls.
+- Flame Pass - Gives immunity to explosions.
