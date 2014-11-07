@@ -87,6 +87,20 @@ wise to bomb out as many bricks as possible.
 - The lowest value kill gets doubled. eg. killing a Ballom and a Doll results in the Baloom being worth 200 pts and the Doll being worth the usual 400
 - Killing more than two enemies on a single bomb results in doubling the double for each successive kill. eg. killing 4 balooms with one bomb results in a total score of 100 + 200 + 400 + 800 = 1500 pts
 
+# Powerups
+There are two different categories of powerups in Bombemran. Some are lost as soon as Bomberman dies while the others are kept even if Bomberman dies. When you restart a new game from an unlocked level, you only start with the powerups which are kept on death.
+
+## Kept on Death
+- Bombs - increases the amount of bombs dropped at a time by 1, up to a maximum of 10.
+- Flames - increases explosion range of all bombs by 1 square in each direction.
+- Speed - increases movement speed.
+
+## Lost on Death
+- Detonators - Gives the abilitiy to detonate the oldest bomb.
+- Bomb Pass - Gives the ability to pass through bombs.
+- Wall Pass - Gives the ability to pass through *destructible* walls.
+- Flame Pass - Gives immunity to explosions.
+
 # Map and Screen
 
 - A map is 31 tiles across and 13 tiles down. Note that this includes the surrounding wall. The actual playable section is 29 tiles across and 11 tiles down.
